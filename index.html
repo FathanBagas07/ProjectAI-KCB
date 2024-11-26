@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Absensi Siswa</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SMART ABSENSI SISWA</h1>
+    </header>
+    
+    <div class="container">
+        <form id="attendanceForm">
+            <div class="form-group">
+                <label for="namaSiswa">NAMA SISWA</label>
+                <input type="text" class="form-control" id="namaSiswa" placeholder="Masukkan nama siswa">
+            </div>
+            <div class="form-group">
+                <label for="absen">ABSEN</label>
+                <input type="text" class="form-control" id="absen" placeholder="Masukkan nomor absen">
+            </div>
+            <div class="form-group">
+                <label for="kelas">KELAS</label>
+                <input type="text" class="form-control" id="kelas" placeholder="Masukkan kelas">
+            </div>
+
+            <!-- Interactive buttons -->
+            <div class="interactive-button d-flex">
+                <button type="button" class="btn btn-dark takeImages">Take Images</button>
+                <button type="button" class="btn btn-info training">Training</button>
+                <button type="button" class="btn btn-secondary autoAttandance">Automatic Attendance</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>
